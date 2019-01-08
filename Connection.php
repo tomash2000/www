@@ -9,6 +9,7 @@
 $Connection=mysql_connect('localhost','root','');
 if($Connection){
 	echo "DataBase Connected <br>";
+	echo "Udane polaczenie z baza";
 }
 else{
 	error.mysql_connect();
